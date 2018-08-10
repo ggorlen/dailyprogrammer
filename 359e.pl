@@ -1,12 +1,12 @@
 #!/usr/bin/perl
 
-# 359: https://www.reddit.com/r/dailyprogrammer/comments/8g0iil/20180430_challenge_359_easy_regular_paperfold/
+# 359e: https://www.reddit.com/r/dailyprogrammer/comments/8g0iil/20180430_challenge_359_easy_regular_paperfold/
 
 use strict;
 use warnings;
 
 sub paperfold {
-  my ($n) = @_;
+  my $n = @_;
   my $word = "1";
 
   for my $i (1..$n) {

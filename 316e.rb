@@ -1,4 +1,4 @@
-# 316: https://www.reddit.com/r/dailyprogrammer/comments/6coqwk/20170522_challenge_316_easy_knights_metric/
+# 316e: https://www.reddit.com/r/dailyprogrammer/comments/6coqwk/20170522_challenge_316_easy_knights_metric/
 
 def solve d_x, d_y
   moves = [

@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# 361: https://www.reddit.com/r/dailyprogrammer/comments/8jcffg/20180514_challenge_361_easy_tally_program/
+# 361e: https://www.reddit.com/r/dailyprogrammer/comments/8jcffg/20180514_challenge_361_easy_tally_program/
 
 use strict;
 use warnings;

@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# 361: https://www.reddit.com/r/dailyprogrammer/comments/8jcffg/20180514_challenge_361_easy_tally_program/
+# 321e: https://www.reddit.com/r/dailyprogrammer/comments/6jr76h/20170627_challenge_321_easy_talking_clock/
 
 use strict;
 use warnings;
@@ -34,7 +34,6 @@ my @tests = (
     "14:01",
     "20:29",
     "21:00"
-    
 );
 my @expected = (
     "It's twelve am",
