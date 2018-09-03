@@ -2,8 +2,8 @@
 
 #include <iostream>
 #include <map>
-#include <stack>
 #include <sstream>
+#include <stack>
 using namespace std;
 
 string deparenthesize(string s) {
