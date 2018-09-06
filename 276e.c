@@ -8,25 +8,19 @@ void shitpost(size_t s_len, char *s, unsigned int h, unsigned int w) {
     int i, j;
     int height = s_len + (s_len - 1) * (h - 1);
     int width = s_len + (s_len - 1) * (w - 1);
-    int r_len = s_len * 2 - 2;
+    int r_len = s_len-- * 2 - 2;
     char r[r_len];
     r[0] = '\0';
     strcpy(r, s);
 
     if (r_len > 0) {
-        for (i = 1, j = r_len - 1; i < s_len - 1; i++, j--) {
+        for (i = 1, j = r_len - 1; i < s_len; i++, j--) {
             r[j] = s[i];
         }
         
         for (i = 0; height--;) {
             for (j = 0; j < width; j++) {
-                if (j % (s_len - 1) == 0 || height % (s_len - 1) == 0) {
-                    printf("%c ", r[i]);
-                }
-                else {
-                    printf("  ");
-                }
-
+                printf("%c ", height % s_len && j % s_len ? ' ' : r[i]);
                 i = (i + 1) % r_len;
             }
 
